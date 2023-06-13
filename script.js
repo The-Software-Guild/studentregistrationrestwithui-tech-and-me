@@ -108,7 +108,7 @@ $(document).ready(function () {
             searchStudentId == "" ||
             isNaN(searchStudentId)
          ) {
-            showStudentNotFoundOrNull("ID cannot be Null or NaN.");
+            showStudentNotFoundOrNull("Search returned no results.");
             return;
          }
 
@@ -158,7 +158,7 @@ $(document).ready(function () {
             searchStudentId === "" ||
             isNaN(searchStudentId)
          ) {
-            showStudentNotFoundOrNull("ID cannot be Null or NaN.");
+            showStudentNotFoundOrNull("Search returned no results.");
             return;
          }
          console.log("seachStudentId " + searchStudentId);
@@ -205,7 +205,7 @@ $(document).ready(function () {
             searchStudentId === "" ||
             isNaN(searchStudentId)
          ) {
-            showStudentNotFoundOrNull("ID cannot be Null or NaN.");
+            showStudentNotFoundOrNull("Search returned no result.");
             return;
          }
 
@@ -252,7 +252,7 @@ $(document).ready(function () {
          //get search input
          let searchName = getSearchInput(sectionIdOfSearchByName);
          if (searchName === null || searchName === "" || isNaN(searchName)) {
-            showStudentNotFoundOrNull("ID cannot be Null or NaN.");
+            showStudentNotFoundOrNull("Search returned no results.");
             return;
          }
 
